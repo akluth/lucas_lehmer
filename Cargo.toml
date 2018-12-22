@@ -1,0 +1,19 @@
+[package]
+name = "lucas_lehmer"
+version = "0.1.0"
+authors = ["Alexander Kluth <deralex@cpan.org>"]
+readme = "README.md"
+categories = [ "algorithms", "math" ]
+keywords = [ "mersenne", "prime", "numbers", "lucas", "lehmer" ]
+documentation = "https://docs.rs/lucas_lehmer"
+homepage = "https://github.com/deralex/lucas_lehmer"
+license = "MIT"
+description = "A package with a primality test for Mersenne numbers (M_{n}=2^{n}-1)"
+
+[badges]
+travis-ci = { repository = "deralex/lucas_lehmer" }
+
+[dependencies]
+ramp = "0.5.1"
+primal = "0.2.3"
+num-integer = "0.1.39"
