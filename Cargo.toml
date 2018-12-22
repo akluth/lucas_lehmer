@@ -8,7 +8,7 @@ keywords = [ "mersenne", "prime", "numbers", "lucas", "lehmer" ]
 documentation = "https://docs.rs/lucas_lehmer"
 homepage = "https://github.com/deralex/lucas_lehmer"
 license = "MIT"
-description = "A package with a primality test for Mersenne numbers (M_{n}=2^{n}-1)"
+description = "A crate with a primality test for Mersenne primes (M_{n}=2^{n}-1)"
 
 [badges]
 travis-ci = { repository = "deralex/lucas_lehmer" }
