@@ -7,11 +7,13 @@ categories = [ "algorithms", "science" ]
 keywords = [ "mersenne", "prime", "numbers", "lucas", "lehmer" ]
 documentation = "https://docs.rs/lucas_lehmer"
 homepage = "https://github.com/deralex/lucas_lehmer"
+repository = "https://github.com/deralex/lucas_lehmer"
 license = "MIT"
 description = "Lucas-Lehmer primality test for Mersenne primes (M_{n}=2^{n}-1)"
 
 [badges]
 travis-ci = { repository = "deralex/lucas_lehmer" }
+maintenance = { status = "actively-developed" }
 
 [dependencies]
 ramp = "0.5.1"
