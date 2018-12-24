@@ -45,11 +45,7 @@ fn check_mersenne(prime: usize) -> bool {
         s = (&s * &s - 2) % &mersenne;
     }
 
-    if s == 0 {
-        return true;
-    } else {
-        return false;
-    }
+    s == 0
 }
 
 #[cfg(test)]
