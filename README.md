@@ -22,6 +22,16 @@ and this to your crate root:
 extern crate lucas_lehmer;
 ```
 
+## Tests
+
+You can run tests by executing `cargo test --release`.
+If you want to test a development build omit the `--release` option, but beware:
+Testing a debug-build will take much longer. Don't be coconfused if cargo says:
+
+    test m11213_is_a_mersenne_number ... test m11213_is_a_mersenne_number has been running for over 60 seconds
+
+The test will continue running.
+
 ## Compatability
 The 'lucas_lehmer' crate requires a nightly build of Rust.
 
