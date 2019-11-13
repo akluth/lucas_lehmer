@@ -3,7 +3,7 @@
 [![crate](https://img.shields.io/crates/v/lucas_lehmer.svg)](https://crates.io/crates/lucas_lehmer)
 [![documentation](https://docs.rs/lucas_lehmer/badge.svg)](https://docs.rs/lucas_lehmer)
 ![minimum rustc nightly](https://img.shields.io/badge/rustc-nightly-red.svg)
-[![Travis status](https://travis-ci.org/dittusch/lucas_lehmer.svg?branch=master)](https://travis-ci.org/dittusch/lucas_lehmer)
+[![Travis status](https://travis-ci.org/alexclooze/lucas_lehmer.svg?branch=master)](https://travis-ci.org/dittusch/lucas_lehmer)
 
 Implementation of the [Lucas–Lehmer primality test](https://en.wikipedia.org/wiki/Lucas%E2%80%93Lehmer_primality_test) in Rust.
 
