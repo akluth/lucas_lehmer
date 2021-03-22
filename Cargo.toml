@@ -1,6 +1,6 @@
 [package]
 name = "lucas_lehmer"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Alexander Kluth <deralex@cpan.org>"]
 readme = "README.md"
 categories = [ "algorithms", "science" ]
@@ -16,6 +16,6 @@ travis-ci = { repository = "deralex/lucas_lehmer" }
 maintenance = { status = "actively-developed" }
 
 [dependencies]
-ramp = "0.5.1"
-primal = "0.2.3"
-num-integer = "0.1.39"
+ramp = "0.5.9"
+primal = "0.3.0"
+num-integer = "0.1.44"
